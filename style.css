@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
-html{
-font-size: 15px;  
+html {
+  font-size:62.5%;
 }
 body {
   font-family: 'League Spartan', sans-serif;
@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 20px;
   justify-content: center;
+  font-size: 1.5rem;
 }
 .navbar {
     width: 100%;
@@ -28,7 +29,7 @@ body {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  margin: 40px 0 0 0; 
+  margin: -25px 0 0 0; 
   width: 100%;
   max-width: 770px;
 }
@@ -39,7 +40,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 80px;
 }
 
 
@@ -67,6 +67,7 @@ body {
 }
 .remove-filter:hover{
   background-color: black;
+  color: white;
 }
 
 .clear-btn {
@@ -121,20 +122,20 @@ body {
   }
 
   .company-name {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: hsl(180, 29%, 50%);
   }
   
   .job-info h2 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin: 0;
     color: hsl(180, 14%, 20%);
     font-weight: 700;
   }
   
   .job-info p {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: hsl(180, 8%, 52%);
   }
   
@@ -150,7 +151,7 @@ body {
   .new {
     color: white;
     background-color: hsl(180, 29%, 50%);
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 3px 8px;
     border-radius: 12px;
     font-weight: 700;
@@ -159,7 +160,7 @@ body {
   .featured {
     color: white;
     background-color: hsl(180, 14%, 20%);
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 3px 8px;
     border-radius: 12px;
     font-weight: 700;
@@ -174,7 +175,7 @@ body {
   .tag {
     background-color: hsl(180, 31%, 95%);
     color: hsl(180, 29%, 50%);
-    font-size: 15px;
+    font-size:1.5rem;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
